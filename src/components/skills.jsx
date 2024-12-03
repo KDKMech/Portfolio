@@ -1,11 +1,13 @@
+import cssLogoURL from "../assets/css"
+import jsLogoURL from "../assets/JS"
 
-
-const mySkills = [
+const mySkills = [///goal is to get each of these in a drop dropdown card or menu
     {
       name: `JavaScript`,
       skillLevel: 8,
       frontEnd: true,
-      backEnd: true
+      backEnd: true,
+      // image: jsLogoURL
     },
     {
       name: `HTML`,
@@ -17,7 +19,8 @@ const mySkills = [
       name: `CSS`,
       skillLevel: 10,
       frontEnd: true,
-      backEnd: false
+      backEnd: false,
+      // image: cssLogoURL
     },
     {
       name: `Express`,
